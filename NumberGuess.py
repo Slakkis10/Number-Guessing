@@ -25,12 +25,6 @@ def InputCheck(answer):
     elif int(answer) < minVal or int(answer) > maxVal:
         raise ValueError()
 
-# # Multiple Definition
-# def Multiple(numGuess, answer):
-    
-# # Division Definition
-# def Division(numGuess, answer):
-
 # Main Script
 numGuess = randint(minVal,maxVal)   #Generate random number for user to guess
 answer = input('Guess a number between ' + str(minVal) + ' and ' + str(maxVal) + ': ')    #Get user input
