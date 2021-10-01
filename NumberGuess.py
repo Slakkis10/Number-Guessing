@@ -55,7 +55,7 @@ while answer != numGuess:
             print(remark + ' Your answer is too low. Guess again idiot.')
             
         else:
-            poop = True
+            correct = True
             print('WOW! You are so goddamn smart. Honestly, you should apply for Harvard.')
             break
                     
@@ -69,4 +69,4 @@ while answer != numGuess:
         if correct == False:
             answer = input('Guess a number between ' + str(minVal) + ' and ' + str(maxVal) + ': ')    #Get user input
         else:
-            break
+            break     
