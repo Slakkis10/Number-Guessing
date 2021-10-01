@@ -1,3 +1,3 @@
 # Number-Guessing
-This script is the Number Guesser. The user will guess a random number between,
-and including, 1 and 100 until they guess the correct number
+This repository is a beginner-level project. The purpose is to create a script for a Number Guesser. The user will guess a random number between,
+and including, the user-specified range until they guess the correct number
