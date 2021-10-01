@@ -5,8 +5,7 @@ Created on Fri Oct  1 13:08:48 2021
 @author: Joela
 
 This script is the Number Guesser. The user will guess a random number between,
-and including, 1 and 100. If the user is wrong, the program will provide a hint
-and deduct from the user's score'
+and including, 1 and 100 until they guess the correct number
 """
     
 # initialize
